@@ -4,7 +4,7 @@ service:
 plugins:
   - serverless-bundle
   - serverless-pseudo-parameters
-
+  - serverless-version-tracker
 provider:
   name: aws
   runtime: nodejs12.x
